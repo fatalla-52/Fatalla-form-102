@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milk Tea Tour</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1604908177522-432c9b7e4a73?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 50px;
+    }
+
+    .hero-content {
+      max-width: 600px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin: 0;
+      color: #FFD700;
+    }
+
+    .hero h2 {
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #00d1ff;
+    }
+
+    .hero p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-red {
+      background: #ff3333;
+      color: white;
+    }
+
+    .btn-red:hover {
+      background: #cc0000;
+    }
+
+    .btn-green {
+      background: #4CAF50;
+      color: white;
+    }
+
+    .btn-green:hover {
+      background: #388E3C;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>MILK TEA TOUR</h1>
+      <h2>Make yourself learn about Milk Tea</h2>
+      <p>This website is dedicated to showcasing and educating about milk tea. 
+      It will serve those who want to learn new skills to make their own milk tea. 
+      I hope you enjoy and learn a lot from our lessons.</p>
+      
+      <div class="buttons">
+        <a href="#" class="btn btn-red">Join Now</a>
+        <a href="#" class="btn btn-green">Contact Now</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
